@@ -14,6 +14,7 @@
 		865A98931A791654001663E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865A98921A791654001663E4 /* Images.xcassets */; };
 		865A98961A791654001663E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 865A98941A791654001663E4 /* LaunchScreen.xib */; };
 		865A98A21A791654001663E4 /* iCountDownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865A98A11A791654001663E4 /* iCountDownTests.swift */; };
+		865A98AC1A791767001663E4 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865A98AB1A791767001663E4 /* Main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		865A989B1A791654001663E4 /* iCountDownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCountDownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		865A98A01A791654001663E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		865A98A11A791654001663E4 /* iCountDownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCountDownTests.swift; sourceTree = "<group>"; };
+		865A98AB1A791767001663E4 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				865A98881A791654001663E4 /* AppDelegate.swift */,
 				865A988D1A791654001663E4 /* ViewController.swift */,
 				865A988F1A791654001663E4 /* Main.storyboard */,
+				865A98AB1A791767001663E4 /* Main.swift */,
 				865A98921A791654001663E4 /* Images.xcassets */,
 				865A98941A791654001663E4 /* LaunchScreen.xib */,
 				865A988A1A791654001663E4 /* iCountDown.xcdatamodeld */,
@@ -217,6 +220,7 @@
 			files = (
 				865A988E1A791654001663E4 /* ViewController.swift in Sources */,
 				865A98891A791654001663E4 /* AppDelegate.swift in Sources */,
+				865A98AC1A791767001663E4 /* Main.swift in Sources */,
 				865A988C1A791654001663E4 /* iCountDown.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
