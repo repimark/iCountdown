@@ -9,13 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet var timeLabel:UILabel!
+    var currentDate = NSDate()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        drawRect(CGRectMake(10, 10, 50, 50))
-
+       var savedDate = NSDate()
+        let comps = NSDateComponents()
+        comps.day = 15
+        comps.month = 2
+        comps.year = 2015
+        savedDate = NSCalendar.currentCalendar().dateFromComponents(comps)!
+        
+        let distanceBetweenDates = currentDate.timeIntervalSinceDate(savedDate)
+        let secondsInAnMinute = 60.0;
+        let minutesElapsed = distanceBetweenDates / secondsInAnMinute;
+        println(minutesElapsed)
+        println(distanceBetweenDates)
+        self.timeLabel.text = "\(distanceBetweenDates)"
     }
     
 
